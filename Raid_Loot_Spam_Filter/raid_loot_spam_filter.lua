@@ -1,4 +1,4 @@
--- Author: Sklug
+-- Author: TheGenomeWhisperer
 
 -- Program: To resolve the horrible raid loot spam during Garrison Fishing parties...  
 -- This ONLY works in Garrison, and it only works on filtering anything but epics and Green Minnows.
