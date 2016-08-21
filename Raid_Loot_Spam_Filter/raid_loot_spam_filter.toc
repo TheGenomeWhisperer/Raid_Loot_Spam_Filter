@@ -1,0 +1,7 @@
+## Interface: 70000
+## Title: Raid Loot Spam Filter
+## Author: TheGenomeWhisperer
+## Version: 0.0.1
+## Notes: Only works in Garrison.  Filters all loot spam that is not epic, with exception of the green Minnow loots.
+
+raid_loot_spam_filter.lua
