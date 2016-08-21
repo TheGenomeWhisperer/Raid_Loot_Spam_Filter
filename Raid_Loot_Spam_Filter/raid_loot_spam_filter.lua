@@ -9,8 +9,10 @@ SLASH_RAIDLOOTSPAMFILTER1 = '/lootspam';
 -- Global variables
 local IsEnabled = false;
 
--- grey = "ff9d9d9d", white = "ffffffff", green = ff1eff00", blue = "ff0070dd", epic = n/a - not filtering.
+-- grey = "ff9d9d9d", white = "ffffffff", green = ff1eff00", blue = "ff0070dd", epic = 
+function noMoreSpam(self,event,msg)
     local toFilter = {"ff9d9d9d","ffffffff","ff1eff00","ff0070dd"}
+    local toNotFilter = {"112633","46109","44983"}  -- Items to not filter by ItemID (Frostdeep Minnow, Sea Turtle, Strand Crawler)
     local count = 0;
     local count2 = 0; -- protected from loot count
     -- Escape from the filtering.
@@ -24,8 +26,11 @@ local IsEnabled = false;
             end
         end
         if count2 == 0 then
-            if (string.match(msg,"112633")) then -- This is the itemID for frostdeep minnow.
-                count2 = count2 + 1;
+            for _, word2 in ipairs(toNotFilter) do
+                if (string.match(msg, word2)) then -- This is where it is determining items to NOT be filtered.
+                    count2 = count2 + 1;
+                    break;
+                end
             end
         end
     end
