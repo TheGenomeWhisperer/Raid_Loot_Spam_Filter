@@ -1,7 +1,7 @@
 ## Interface: 70000
 ## Title: Raid Loot Spam Filter
 ## Author: TheGenomeWhisperer
-## Version: 0.0.1
-## Notes: Only works in Garrison.  Filters all loot spam that is not epic, with exception of the green Minnow loots.
+## Version: 0.0.4
+## Notes: Filter ALL lootspam from the raid, except for Frostdeep Minnow, the 2 turtles (riding and sea) and the strand crawler
 
 raid_loot_spam_filter.lua
