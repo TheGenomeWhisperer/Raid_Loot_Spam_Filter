@@ -150,10 +150,10 @@ SlashCmdList["RAIDLOOTSPAMFILTER"] = function(input)
         -- HELP REPORTING
         elseif input == 'help' then
             local result = "\n-------------------------------------------\n---  RAID LOOT SPAM FILTER   ---\n----          INFORMATION           ----\n-------------------------------------------";
-            result = result .. "\nType to Enable Filter:    /lootspam enable";
-            result = result .. "\nType to Disable Filter:   /lootspam disable";
-            result = result .. "\nReset progress tracking: /lootspam reset"
-            result = result .. "\n\n Check Progress by typing /lootspam";
+            result = result .. "\nType to Enable Filter:      /lootspam enable";
+            result = result .. "\nType to Disable Filter:     /lootspam disable";
+            result = result .. "\nReset progress tracking:  /lootspam reset"
+            result = result .. "\nType to Check Progrss:    /lootspam";
             print(result);
         
         -- If error in input
