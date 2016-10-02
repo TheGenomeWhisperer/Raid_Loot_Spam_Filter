@@ -2,6 +2,8 @@ Tired of the endless loot spam while in a Garrison Fishing Party for the turtles
 
 This also keeps track of all the important loot, and if is currently enabled, type /lootspam at any time to get count report on "seen" special items.
 
+![alt text](https://legacy.curseforge.com/media/images/91/770/Capture.JPG "Enabling it, stopping the spam")
+
 [CURSE LINK FOR WOW COMMUNITY](https://mods.curse.com/addons/wow/raid-loot-spam-filter)
 
 **SLASH COMMANDS**
